@@ -49,12 +49,12 @@ map.on('load', function() {
         });
     }
 
-    var frame = frameCount - 1;
-    setInterval(function() {
-        map.setPaintProperty('radar' + frame, 'raster-opacity', 0);
-        frame = (frame + 1) % frameCount;
-        map.setPaintProperty('radar' + frame, 'raster-opacity', 1);
-    }, 200);
+    // var frame = frameCount - 1;
+    // setInterval(function() {
+    //     map.setPaintProperty('radar' + frame, 'raster-opacity', 0);
+    //     frame = (frame + 1) % frameCount;
+    //     map.setPaintProperty('radar' + frame, 'raster-opacity', 1);
+    // }, 200);
 
 });
 </script>
